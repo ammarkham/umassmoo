@@ -22,7 +22,8 @@ unsigned short queryReplyCRC;
 
 // ackReply:  First two bytes are the preamble.  Last two bytes are the crc.
 volatile unsigned char ackReply[] = { 0x30, 0x00, EPC, 0x00, 0x00};
-unsigned short ackReplyCRC;
+unsigned short ackReplyCRC, queryReplyCRC, readReplyCRC; //for some reason this is defined here but not
+                              //qeryReplyCRC nor readReplyCRC
 
 // first 8 bits are the EPCGlobal identifier, followed by a 12-bit tag designer
 // identifer (made up), followed by a 12-bit model number

@@ -107,4 +107,8 @@
 #define DEBUG_PIN5_LOW
 #endif
 
+
+inline void crc16_ccitt_readReply(unsigned int numDataBytes);
+
+
 #endif // MOO_H
