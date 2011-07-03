@@ -3,6 +3,9 @@
 #include "moo.h"
 #include "rfid.h"
 
+//A: The following variable was not defined, not sure what's the proper value
+#define DATA_LENGTH_IN_BYTES  2
+
 unsigned short Q = 0;
 unsigned short slot_counter = 0;
 unsigned short shift = 0;

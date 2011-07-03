@@ -10,9 +10,9 @@
 // return sampled sensor data as epc. best for range.
 #define SENSOR_DATA_IN_ID             0
 // support read commands. returns one word of counter data
-#define SIMPLE_READ_COMMAND           1
+#define SIMPLE_READ_COMMAND           0
 // return sampled sensor data in a read command. returns three words of accel data
-#define SENSOR_DATA_IN_READ_COMMAND   0
+#define SENSOR_DATA_IN_READ_COMMAND   1
 ////////////////////////////////////////////////////////////////////////////////
 
 
